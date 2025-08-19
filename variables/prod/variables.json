@@ -1,0 +1,11 @@
+{
+    "env": "prod",
+    "gcs_bucket": "airflow-projetcs-gds007",
+    "bq_project": "analytical-park-467211-t1",
+    "bq_dataset": "flight_data_prod",
+    "tables": {
+      "transformed_table": "transformed_flight_data_prod",
+      "route_insights_table": "route_insights_prod",
+      "origin_insights_table": "origin_insights_prod"
+    }
+  }
